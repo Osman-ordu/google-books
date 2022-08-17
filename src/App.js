@@ -11,7 +11,6 @@ import {
 const App = () => {
   // state
   const [maxResult,setMaxResults] = useState(10);
-  const [startIndex,setStartIndex] = useState(1)
   const mainHeader = () => {
 
     return (
