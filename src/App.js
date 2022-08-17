@@ -66,11 +66,11 @@ function App() {
               className='shadow-none'
               value={query}
               onChange={e => setQuery(e.target.value)}
-              
+
             />
-              <Button color='secondary' onClick={handleSubmit}>
-                <i className='fas fa-search'></i>
-              </Button>
+            <Button style={{ backgroundColor: 'black', color: '#fff' }} onClick={handleSubmit}>
+              <i className='fas fa-search'></i>
+            </Button>
           </InputGroup>
           <div className='d-flex text-white justify-content-center'>
             <FormGroup >

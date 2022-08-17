@@ -1,9 +1,9 @@
 body {
-    overflow-x: hidden ;
+    overflow-x: hidden;
 }
-  
+
 .main-image {
-    background: url('../assets/image/photo-1507842217343-583bb7270b66.avif');
+    background: url('../assets/image/harry.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -14,8 +14,8 @@ body {
 }
 
 .filter::after {
-    background-color: rgba(0,0,0,0.4);
-    content:'';
+    background-color: rgba(0, 0, 0, 0.4);
+    content: '';
     display: block;
     height: 100%;
     left: 0;

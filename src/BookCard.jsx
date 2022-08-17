@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import { Card, CardTitle, CardImg, CardBody, Button, Modal } from 'reactstrap';
+import { 
+Card, 
+CardTitle, 
+CardImg, 
+CardBody, 
+Button, 
+Modal } 
+from 'reactstrap';
 const BookCard = ({
   thumbnail,
   title,
